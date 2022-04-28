@@ -1,17 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-const Navbar = (props) => {
-    const{
-        pageSelected,
-        setPageSelected
-    } = props;
+const Navbar = () => {
+
     return (
         <nav className="pl-3 pt-3 text-base">
-            <Link to="/" className="nav-link" onClick={() => setPageSelected("Home")}>Home</Link>
-            <Link to="/members" className="nav-link" onClick={() => setPageSelected("Members")}>Members</Link>
-            <Link to="/discography" className="nav-link" onClick={() => setPageSelected("Discography")}>Discography</Link>
-            <Link to="/links" className="nav-link" onClick={() => setPageSelected("Links")}>Links</Link>
+            <Link to="/" className="nav-link">Home</Link>
+            <Link to="/members" className="nav-link">Members</Link>
+            <Link to="/discography" className="nav-link">Discography</Link>
+            <Link to="/links" className="nav-link">Links</Link>
         </nav>
     );
 };

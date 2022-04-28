@@ -1,5 +1,6 @@
 import './App.css';
-import React, { useState } from 'react';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Header from './components/Header';
@@ -9,34 +10,17 @@ import Discography from './components/pages/Discography';
 import Links from './components/pages/Links';
 
 function App() {
-  const [pageSelected, setPageSelected] = useState("Home");
-
-  const renderPage = () => {
-    switch(pageSelected){
-      case "Home":
-        return <Home/>;
-      case "Members":
-        return <Members/>;
-      case "Discography":
-        return <Discography/>;
-      case "Links":
-        return <Links/>;
-      default:
-        return null;
-    }
-
-  }
-
-
   return (
     <div className="App">
       <Header />
-      <Navbar
-        pageSelected={pageSelected}
-        setPageSelected={setPageSelected}
-      />
+      <Navbar/>
       <main>
-        {renderPage()}
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/members' element={<Members/>} />
+          <Route path='/discography' element={<Discography/>} />
+          <Route path='/links' element={<Links/>} />
+        </Routes>
       </main>
       <Footer/>
     </div>
