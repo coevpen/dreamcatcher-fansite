@@ -30,6 +30,6 @@ footer{
     display: flex;
 }
 
-p{
+p, li, h2{
     color: white;
 }

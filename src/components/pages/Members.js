@@ -3,9 +3,9 @@ import React from 'react';
 const Members = () => {
 
     return (
-        <footer>
-            <p className="text-white">This is the members page</p>
-        </footer>
+        <div>
+            <p className="text-white">The memebrs page is under construction</p>
+        </div>
     );
 };
 
