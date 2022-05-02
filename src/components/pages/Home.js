@@ -7,7 +7,7 @@ const Home = () => {
         <div className="lg:mx-12 sm:mx-5">
             <h2 className="text-white text-4xl">News</h2>
             <br/>
-            <h3>04/30/22:</h3>
+            <h3 className="text-white text-2xl">04/30/22:</h3>
             <p> Dreamcatcher is going on a World Tour and making stops in the USA!
             <br/>
             Tour Dates:

@@ -33,3 +33,59 @@ footer{
 p, li, h2{
     color: white;
 }
+
+.disco-title{
+    font-weight: bold;
+}
+
+.disco-section{
+    @apply my-8;
+}
+
+.about{
+    width: 50%;
+}
+
+@media screen and (min-width: 1281px){
+
+    footer div{
+        @apply ml-96;
+    }
+    .foot-name{
+        @apply mr-96;
+    }
+}
+
+
+@media screen and (max-width: 1566px){
+
+    footer div{
+        @apply ml-64;
+    }
+    .foot-name{
+        @apply mr-12;
+    }
+}
+
+@media screen and (max-width: 1284px){
+    .about{
+        width: 80%;
+        @apply ml-24;
+    }
+    footer div{
+        @apply ml-24;
+    }
+}
+
+@media screen and (max-width: 778px){
+    .about{
+        width: 60%;
+        @apply ml-12;
+    }
+    footer div{
+        @apply ml-4;
+    }
+    .foot-name{
+        @apply mr-1;
+    }
+}

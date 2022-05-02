@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Members from './components/pages/Members';
 import Discography from './components/pages/Discography';
 import Links from './components/pages/Links';
+import About from './components/pages/About';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <main className="content">
         <Routes>
           <Route path='/' element={<Home/>} />
+          <Route path='/about' element={<About/>} />
           <Route path='/members' element={<Members/>} />
           <Route path='/discography' element={<Discography/>} />
           <Route path='/links' element={<Links/>} />
