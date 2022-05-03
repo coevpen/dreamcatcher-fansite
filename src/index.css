@@ -34,6 +34,8 @@ p, li, h2{
     color: white;
 }
 
+/* discography page */
+
 .disco-title{
     font-weight: bold;
 }
@@ -46,7 +48,7 @@ p, li, h2{
     width: 50%;
 }
 
-
+/* Members page */
 .headShot-rows{
     @apply grid grid-cols-4;
 }
@@ -68,6 +70,52 @@ p, li, h2{
     width: 300px;
 }
 
+/* modal */
+.modal-wrapper{
+    width: 80%;
+    height: 80%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @apply bg-gradient-to-l from-slate-600 to-black;
+}
+
+.modal{
+    width: 80%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    z-index: 10;
+    border-radius: 10px;
+    @apply bg-gradient-to-l from-slate-600 to-black text-white;
+}
+
+.modal-img{
+    width: 50%;
+    height: 70%;
+    border-radius: 10px 0 0 10px;
+    background: #000;
+}
+
+.modal-btn{
+    padding: 10px 24px;
+    background: #141414;
+    color: #fff;
+    border: none;
+}
+
+.modal-close-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    z-index: 10;
+}
 
 @media screen and (max-width: 1566px){
 
