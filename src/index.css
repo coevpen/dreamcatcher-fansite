@@ -46,14 +46,26 @@ p, li, h2{
     width: 50%;
 }
 
-@media screen and (min-width: 1281px){
 
-    footer div{
-        @apply ml-96;
-    }
-    .foot-name{
-        @apply mr-96;
-    }
+.headShot-rows{
+    @apply grid grid-cols-4;
+}
+
+.picContainer{
+    @apply col-span-1 mb-5;
+}
+
+.picEven{
+    @apply col-start-3;
+}
+
+.picOdd{
+    @apply col-start-2;
+}
+
+.headShot{
+    height: 300px;
+    width: 300px;
 }
 
 
@@ -75,6 +87,20 @@ p, li, h2{
     footer div{
         @apply ml-24;
     }
+    .picContainer{
+        @apply col-span-2;
+    }
+
+}
+
+@media screen and (min-width: 1281px){
+
+    footer div{
+        @apply ml-96;
+    }
+    .foot-name{
+        @apply mr-96;
+    }
 }
 
 @media screen and (max-width: 778px){
@@ -88,4 +114,13 @@ p, li, h2{
     .foot-name{
         @apply mr-1;
     }
+
+}
+
+@media screen and (max-width: 660px ) {
+    .headShot{
+        height: 200px;
+        width: 200px;
+    }
+    
 }
