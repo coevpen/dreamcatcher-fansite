@@ -30,7 +30,7 @@ footer{
     display: flex;
 }
 
-p, li, h2{
+p, li, h1, h2{
     color: white;
 }
 
@@ -71,7 +71,7 @@ p, li, h2{
 }
 
 /* modal */
-.modal-wrapper{
+/* .modal-wrapper{
     width: 80%;
     height: 80%;
     position: fixed;
@@ -115,7 +115,7 @@ p, li, h2{
     height: 32px;
     padding: 0;
     z-index: 10;
-}
+} */
 
 @media screen and (max-width: 1566px){
 
