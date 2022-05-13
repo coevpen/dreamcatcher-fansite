@@ -47,6 +47,7 @@ p, li, h1, h2{
 .about{
     width: 50%;
 }
+/* end of discography */
 
 /* Members page */
 .headShot-rows{
@@ -71,47 +72,6 @@ p, li, h1, h2{
 }
 
 /* modal */
-/* .modal-wrapper{
-    width: 80%;
-    height: 80%;
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    @apply bg-gradient-to-l from-slate-600 to-black;
-}
-
-.modal{
-    width: 80%;
-    height: 70%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    position: relative;
-    z-index: 10;
-    border-radius: 10px;
-    @apply bg-gradient-to-l from-slate-600 to-black text-white;
-}
-
-
-
-.modal-btn{
-    padding: 10px 24px;
-    background: #141414;
-    color: #fff;
-    border: none;
-}
-
-.modal-close-btn{
-    cursor: pointer;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 32px;
-    height: 32px;
-    padding: 0;
-    z-index: 10;
-} */
-
 .modal{
     @apply flex justify-center mb-8 items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none;
 }
@@ -144,9 +104,10 @@ p, li, h1, h2{
     right: 10%;
     width: 100%;
 }
+/* end of modal and members page*/
 
-/* end of modal */
 
+/* mobile friendly changes */
 @media screen and (max-width: 1566px){
 
     footer div{
