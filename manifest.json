@@ -1,0 +1,13 @@
+{
+  "short_name": "Dreamcatcher",
+  "name": "Dreamcatcher Fansite",
+  "icons": [{
+    "src": "DC_icon.jpeg",
+    "sizes": "840x859",
+    "type": "image/png"
+  }],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
