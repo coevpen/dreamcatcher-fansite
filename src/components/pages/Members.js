@@ -70,7 +70,9 @@ const Members = () => {
     };
 
     return (
-        <div className="headShot-rows">
+        <>
+
+        <div  className="headShot-rows">
             <div className="picContainer picOdd">
                 <img className="headShot" src={Dami} alt="Dami" data-index="0" onClick={() => {openModal(); toggleModal(0);}}/>
             </div>
@@ -98,9 +100,9 @@ const Members = () => {
             <div className="picContainer picOdd">
                 <img className="headShot" src={Siyeon} alt="Siyeon" data-index="6" onClick={() => {openModal(); toggleModal(6);}}/>
             </div>
-
-            <Modal showModal={showModal} setShowModal={setShowModal} currentBio={currentBio} />
         </div>
+        <Modal showModal={showModal} setShowModal={setShowModal} currentBio={currentBio} />
+        </>
     );
 };
 

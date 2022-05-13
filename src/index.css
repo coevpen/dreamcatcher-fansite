@@ -92,12 +92,7 @@ p, li, h1, h2{
     @apply bg-gradient-to-l from-slate-600 to-black text-white;
 }
 
-.modal-img{
-    width: 50%;
-    height: 70%;
-    border-radius: 10px 0 0 10px;
-    background: #000;
-}
+
 
 .modal-btn{
     padding: 10px 24px;
@@ -116,6 +111,41 @@ p, li, h1, h2{
     padding: 0;
     z-index: 10;
 } */
+
+.modal{
+    @apply flex justify-center mb-8 items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none;
+}
+
+.modal-img{
+    width: 70%;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+    background: #000;
+}
+
+.modal-close-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    z-index: 10;
+} 
+
+.modal-inside{
+    @apply bg-gradient-to-l from-slate-600 to-black flex relative w-auto my-7 mx-auto max-w-3xl;
+}
+
+.modal-bio{
+    position: relative;
+    top: 40px;
+    right: 10%;
+    width: 100%;
+}
+
+/* end of modal */
 
 @media screen and (max-width: 1566px){
 
