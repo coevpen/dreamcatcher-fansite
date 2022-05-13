@@ -16,6 +16,10 @@
     }
 } 
 
+header h1{
+    @apply pl-4 text-white text-7xl;
+}
+
 .nav-link, a{
     @apply p-4 text-white drop-shadow-[0_5px_5px_rgb(255,0,0,1)] hover:text-red-600 hover:uppercase duration-700;
 }
@@ -28,6 +32,10 @@ footer{
     padding-top: 90px;
     padding-bottom: 20px;
     display: flex;
+}
+
+.footer-link{
+    @apply ml-96;
 }
 
 p, li, h1, h2{
@@ -140,6 +148,13 @@ p, li, h1, h2{
     .foot-name{
         @apply mr-96;
     }
+
+}
+
+@media screen and (max-width: 1048px) {
+    .home-page{
+        @apply ml-24;
+    }
 }
 
 @media screen and (max-width: 778px){
@@ -147,6 +162,15 @@ p, li, h1, h2{
         width: 60%;
         @apply ml-12;
     }
+
+    .home-page{
+        @apply ml-12;
+    }
+
+    .links-page{
+        @apply ml-12;
+    }
+
     footer div{
         @apply ml-4;
     }
@@ -162,4 +186,31 @@ p, li, h1, h2{
         width: 200px;
     }
     
+    footer{
+        flex-wrap: wrap;
+    }
+
+    .foot-name{
+        margin: 0;
+    }
+
+    .footer-link{
+        margin: 0;
+    }
+
+    header h1{
+        @apply text-5xl;
+    }
+
+    .nav-link{
+        @apply p-2;
+    }
+
+    .content {
+        padding-left: 4px;
+    }
+
+    .home-page, .links-page{
+        margin: 0;
+    }
 }

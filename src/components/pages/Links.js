@@ -4,7 +4,7 @@ const Links = () => {
 
     return (
         <div>
-            <div>
+            <div className="links-page ml-96">
                 <h2 className="my-10">Official Dreamcatcher Links</h2>
                 <ul className="list-disc ml-20">
                     <li><a href="https://twitter.com/hf_dreamcatcher" target="_blank" rel='noreferrer'>Twitter</a></li>
@@ -19,7 +19,7 @@ const Links = () => {
                     <li><a href="https://www.instagram.com/hf_dreamcatcher/" target="_blank" rel='noreferrer'>Instagram</a></li>
                 </ul>
             </div>
-            <div>
+            <div className="links-page ml-96">
                 <h2 className="my-10">Other Links</h2>
                 <ul className="list-disc ml-20">
                     <li><a href="https://en.wikipedia.org/wiki/Dreamcatcher_(group)" target="_blank" rel='noreferrer'>Wikipedia</a></li>

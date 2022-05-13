@@ -17,11 +17,11 @@ function App() {
       <Navbar/>
       <main className="content">
         <Routes>
-          <Route path='/' element={<Home/>} />
-          <Route path='/about' element={<About/>} />
-          <Route path='/members' element={<Members/>} />
-          <Route path='/discography' element={<Discography/>} />
-          <Route path='/links' element={<Links/>} />
+          <Route path='/dreamcatcher-fansite' element={<Home/>} />
+          <Route path='/dreamcatcher-fansite/about' element={<About/>} />
+          <Route path='/dreamcatcher-fansite/members' element={<Members/>} />
+          <Route path='/dreamcatcher-fansite/discography' element={<Discography/>} />
+          <Route path='/dreamcatcher-fansite/links' element={<Links/>} />
         </Routes>
       </main>
       <Footer/>
