@@ -24,6 +24,13 @@ const discography = [
         tracklist: ["Intro", "Breaking Out", "My Way", "Chase Me (Jpn ver)", "Good Night (Jpn ver)", "Wonderland (Jpn ver.)", "Piri (Jpn ver)", "What (Jpn ver)", "I Miss You", "And There Was No One Left (Jpn ver)", "You and I (Jpn ver)", "Outro"]
     },
     {
+        title: "Summer Holiday",
+        image: require(),
+        country: "Korea",
+        album_type: "Mini Album",
+        tracklist: ["Intro", "BEcause", "Airplane", "Whistle", "Alldaylong", "A Heart of Sunflower"]
+    },
+    {
         title: "Nightmare",
         image: require(),
         country: "Korea",
