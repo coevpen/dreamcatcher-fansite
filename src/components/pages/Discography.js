@@ -1,45 +1,45 @@
 import React from 'react';
 import Disco from './disco';
-
+//TODO: add an alt to all, finish adding all images
 const discography = [
     {
         title: "Apocalypse: Save Us",
-        image: require(),
+        image: require(`../../assets/apocalypse_albm.jpg`),
         country: "Korea",
         album_type: "Album",
         tracklist: ["Intro: Save Us", "Locked Inside a Door", "MAISON", "Starlight", "Together", "Always", "Skit: The Seven Doors", "Cherry (Real Miracle) (JiU Solo)", "No Dot (SuA solo)", "Entrancing (Siyeon Solo)", "Winter (Handong solo)", "For (Yoohyeon solo)", "Beauty Full (Dami solo)", "Playground (Gahyeon solo)"]
     },
     {
         title: "Dystopia: The Tree of Language",
-        image: require(),
+        image: require(`../../assets/dystopia_albm.jpg`),
         country: "Korea",
         album_type: "Album",
         tracklist: ["Intro", "Scream", "Tension", "Red Sun", "Black or White", "Jazz Bar", "SAHARA", "In the Frozen", "Daybreak", "Full Moon", "Over the Sky", "Outro", "Scream (Instrumental)", "Paradise"]
     },
     {
         title: "The Beginning of the End",
-        image: require(),
+        image: require(`../../assets/begn_albm.jpg`),
         country: "Japan",
         album_type: "Album",
         tracklist: ["Intro", "Breaking Out", "My Way", "Chase Me (Jpn ver)", "Good Night (Jpn ver)", "Wonderland (Jpn ver.)", "Piri (Jpn ver)", "What (Jpn ver)", "I Miss You", "And There Was No One Left (Jpn ver)", "You and I (Jpn ver)", "Outro"]
     },
     {
         title: "Summer Holiday",
-        image: require(),
+        image: require(`../../assets/summerhol_mini.jpg`),
         country: "Korea",
         album_type: "Mini Album",
         tracklist: ["Intro", "BEcause", "Airplane", "Whistle", "Alldaylong", "A Heart of Sunflower"]
     },
     {
         title: "Nightmare",
-        image: require(),
+        image: require(`../../assets/nightmare_single.jpg`),
         country: "Korea",
         album_type: "Single",
         tracklist: ["Welcome to Dream", "Chase Me", "Emotion", "Chase Me (Instrumental)"]
     },
     {
         title: "Fall Asleep in the Mirror",
-        image: require(),
+        image: require(`../../assets/fallAsleep_single.jpg`),
         country: "Korea",
         album_type: "Single",
         tracklist: ["My Toys", "Good Night", "Lullaby", "Good Night (Instrumental)"]
