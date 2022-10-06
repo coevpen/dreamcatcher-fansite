@@ -1,8 +1,6 @@
 import React from 'react';
 
-//TODO: finish adding all images
 
-//note: jiuShot placeholder image in albums that I havent gotten the pics for yet
 const discography = [
     {
         title: "Apocalypse: Save Us",
@@ -48,84 +46,84 @@ const discography = [
     },
     {
         title: "Dystopia: Lose Myself",
-        image: require(`../../assets/jiuShot.jpg`),
+        image: require(`../../assets/losemyself_mini.jpg`),
         country: "Korea",
         album_type: "Mini Album",
         tracklist: ["Intro", "BOCA", "Break the Wall", "Can't Get You Out of My Mind", "Dear", "BOCA (Instrumental)"]
     },
     {
         title: "Dystopia: Road to Utopia",
-        image: require(`../../assets/jiuShot.jpg`),
+        image: require(`../../assets/roadtoUtopia_mini.png`),
         country: "Korea",
         album_type: "Mini Album",
         tracklist: ["Intro", "Odd Eye", "Wind Blows", "Poison Love", "4 Memory", "New Days", "Odd Eye (instrumental)"]
     },
     {
         title: "Prequel",
-        image: require(`../../assets/jiuShot.jpg`),
+        image: require(`../../assets/prequel_mini.jpg`),
         country: "Korea",
         album_type: "Mini Album",
         tracklist: ["Before and After", "Fly High", "Wake Up", "Sleep Walking", "Trust Me", "Fly High (Instrumental)"]
     },
     {
         title: "Alone in the City",
-        image: require(`../../assets/jiuShot.jpg`),
+        image: require(`../../assets/aloneInTheCity_mini.png`),
         country: "Korea",
         album_type: "Mini Album",
         tracklist: ["Intro", "What", "Wonderland", "Trap", "July 7th", "What (Instrumental)"]
     },
     {
         title: "The End of Nightmare",
-        image: require(`../../assets/jiuShot.jpg`),
+        image: require(`../../assets/endOfNightmare_mini.png`),
         country: "Korea",
         album_type: "Mini Album",
         tracklist: ["Intro", "Piri", "Diamond", "And There Was No One Left", "Daydream", "Piri (Instrumental)"]
     },
     {
         title: "Nightmare - Escape the ERA",
-        image: require(`../../assets/jiuShot.jpg`),
+        image: require(`../../assets/escapeTheEra_mini.jpg`),
         country: "Korea",
         album_type: "Mini Album",
         tracklist: ["Inside-Outside", "You and I", "Mayday", "Which a Start", "Scar", "You and I (Instrumental)"]
     },
     {
         title: "No More",
-        image: require(`../../assets/jiuShot.jpg`),
+        image: require(`../../assets/noMore_single.jpg`),
         country: "Japan",
         album_type: "Single",
         tracklist: ["No More", "No More (Instrumental)"]
     },
     {
         title: "Eclipse",
-        image: require(`../../assets/jiuShot.jpg`),
+        image: require(`../../assets/eclipse_single.jpg`),
         country: "Japan",
         album_type: "Single",
         tracklist: ["Eclipse", "No More", "Don't Light My Fire", "Eclipse (Instrumental)", "No More (Instrumental)", "Don't Light My Fire (Instrumental)"]
     },
     {
         title: "Endless Night",
-        image: require(`../../assets/jiuShot.jpg`),
+        image: require(`../../assets/endlessNight_single.jpg`),
         country: "Japan",
         album_type: "Single",
         tracklist: ["Enless Night", "Over the SKy (Japanese ver.)", "Silent Night (Japanese ver.)"]
     },
     {
         title: "What",
-        image: require(`../../assets/jiuShot.jpg`),
+        image: require(`../../assets/what_single.jpg`),
         country: "Japan",
         album_type: "Single",
         tracklist: ["What (Japanese ver.)", "Chase Me (Japanese ver.)", "I Miss You"]
     },
     {
         title: "You and I",
-        image: require(`../../assets/jiuShot.jpg`),
+        image: require(`../../assets/piri_single.jpg`),
         country: "Japan",
         album_type: "Single",
         tracklist: ["You and I (Japanese ver.)", "You and I (Instrumental)"]
     },
     {
         title: "Piri ~Fue wo Fuke~",
-        image: require(`../../assets/jiuShot.jpg`),
+        image: require(`../../assets/piri_single.jpg`),
         country: "Japan",
         album_type: "Single",
         tracklist: ["Piri (Japanese ver.)", "Good Night (Japanese ver.)", "Wonderland (Japanese ver.)"]
