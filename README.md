@@ -14,3 +14,7 @@ working on the site and will flesh out their bios as well as start their discogr
 
 ## Deployed Link
 [https://coevpen.github.io/dreamcatcher-fansite/](https://coevpen.github.io/dreamcatcher-fansite/)
+
+#ToDos:
+- Discography page hasn't been formatted to make it look nicer.
+- Japanese site links may no longer be working due to the group no longer being signed with a Japanese company
